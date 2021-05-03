@@ -1,0 +1,19 @@
+{
+    "client": "cd client && yarn start",
+    "start": "node server.js",
+    "buildclient": "cd client && npm install && npm run build",
+    "buildandstart": "npm run buildclient && npm install && npm run start",
+    "scripts": {
+        "client": "cd client && yarn start",
+        "start": "node server.js",
+        "buildclient": "cd client && npm install && npm run build",
+        "buildandstart": "npm run buildclient && npm install && npm run start"
+    },
+    "name": "dapr-chat-app-client",
+    "version": "1.0.0",
+    "main": "server.js",
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": ""
+}
